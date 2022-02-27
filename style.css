@@ -1,0 +1,107 @@
+a, a:hover{
+    text-decoration: none;
+}
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 3px 3px 10px #808080;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.card__inner{
+    padding: 20px;
+}
+.card__img{
+    width: 100%;
+}
+.card__product-code{
+    font-size: 14px;
+    text-align: end;
+    margin-bottom: 15px;
+}
+.card__img{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.card__descr{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px; 
+}
+.card__info-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card__stars{
+    color: #ec9801;
+}
+.card__comments{
+    margin-right: auto;
+    margin-left: 15px;
+}
+.card__comments-icon{
+    color: #ff6600;
+}
+.card__comments-item{
+    color: #000;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+}
+.card__cashback-icon{
+    color: #ff6600;
+}
+.card__old-price{
+    color: #808080;
+}
+.card__new-price{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.card__credit-icon{
+    color: #ff6600
+}
+.card__bottom-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__btn{
+    color: #fff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 3px;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid #ff6600;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.card__btn:hover{
+    color: #ff6600;
+    background-color: #fff;
+}
+
+@media (max-width: 480px){
+    .card{
+        box-shadow: none;
+    }
+}
